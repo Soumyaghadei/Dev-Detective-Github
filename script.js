@@ -155,7 +155,6 @@ if (localStorage.getItem("dark-mode") === null) {
         // If the device preference is for dark mode, apply dark mode properties
         enableDarkMode();
     } else {
-        // If the device preference is not for dark mode, apply light mode properties
         enableLightMode();
     }
 } else {
